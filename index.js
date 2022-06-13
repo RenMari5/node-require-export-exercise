@@ -1,10 +1,10 @@
-const numbers = require("./data.js");
-const namae = require("./data.js");
-const whereImFrom = require("./data.js");
+const information = require("./data.js");
 
 const math = require("./sum.js");
 
-console.log(numbers());
-console.log(`${namae} is from ${whereImFrom}.`);
+const cowsay = require("cowsay");
 
-module.exports = { numbers, namae, whereImFrom };
+console.log(information.numbers);
+console.log(`${information.name} is from ${information.hometown}`);
+
+math(information.numbers);

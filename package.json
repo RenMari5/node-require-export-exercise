@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RenMari5/node-require-export-exercise/issues"
   },
-  "homepage": "https://github.com/RenMari5/node-require-export-exercise#readme"
+  "homepage": "https://github.com/RenMari5/node-require-export-exercise#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
