@@ -4,11 +4,13 @@ const math = require("./sum.js");
 
 // const cowsay = require("cowsay");
 
-const lodash = require("lodash/array");
+const shuffle = require("lodash.shuffle");
 
 console.log(information.numbers);
 console.log(`${information.name} is from ${information.hometown}`);
 
 math(information.numbers);
 
-console.log(information.numbers.arrayShuffle);
+let shuffledNumbers = _.shuffle(information.numbers);
+
+console.log(shuffledNumbers);

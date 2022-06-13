@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RenMari5/node-require-export-exercise#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "lodash.shuffle": "^4.2.0"
   }
 }
